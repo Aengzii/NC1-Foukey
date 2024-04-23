@@ -10,7 +10,7 @@ ios 17.4/Swift/SwiftData
 
 ## 📝 나만의 다이어리 앱 “FouKey(포키)“ 📝
 > 
-![FouKey]https://github.com/Aengzii/NC1-Foukey/blob/main/FouKey.png 
+![FouKey](https://github.com/Aengzii/NC1-Foukey/blob/main/FouKey.png)
 **FouKey(포키)**는 장소/음식/사람/물건이라는 **4가지 키워드를 중심으로 하루를 정리하는 일기앱**입니다.
 
 포키는 이런 사람들을 위한 앱입니다.
