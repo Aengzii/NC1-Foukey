@@ -5,7 +5,7 @@
 📅 2024.04.08(Mon) - 2024.04.19(Fri)
 
 
-ios 17.4/SwiftUI/SwiftData
+📲 ios 17.4/SwiftUI/SwiftData
 
 ## 📝 나만의 다이어리 앱 “FouKey(포키)“ 📝
 > 
