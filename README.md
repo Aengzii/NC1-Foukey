@@ -1,12 +1,11 @@
 # Nano Challenge 1: Foukey
-2024 Apple Deveopler Academy @ POSTECH 
-
-Morning Session AengZi
+2024 Apple Deveopler Academy @ POSTECH, Morning Session AengZi
 
 
 📅 2024.04.08(Mon) - 2024.04.19(Fri)
 
-ios 17.4/Swift/SwiftData
+
+ios 17.4/SwiftUI/SwiftData
 
 ## 📝 나만의 다이어리 앱 “FouKey(포키)“ 📝
 > 
@@ -17,7 +16,7 @@ ios 17.4/Swift/SwiftData
 - 일기를 적어보고 싶지만, 무엇을, 어떻게 기록해야 할지 몰라서 어려움을 겪는 사람
 - 태스크매니저나 일정관리용 기록이 아닌, 본인의 하루를 기록해보고 싶은 사람
 - 빠르고 간단하게 하루를 기록하고 싶은 사람
-
+![Foukey]()
 
 ### 🥳 NC1의 목표는 이렇게 이루었어요!
 
