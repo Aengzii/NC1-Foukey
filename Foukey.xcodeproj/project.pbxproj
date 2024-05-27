@@ -11,10 +11,30 @@
 		CE35B77D2BD73FB200F054CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B77C2BD73FB200F054CD /* ContentView.swift */; };
 		CE35B77F2BD73FB200F054CD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B77E2BD73FB200F054CD /* Item.swift */; };
 		CE35B7812BD73FB300F054CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE35B7802BD73FB300F054CD /* Assets.xcassets */; };
-		CE35B7842BD73FB300F054CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE35B7832BD73FB300F054CD /* Preview Assets.xcassets */; };
 		CE35B78E2BD73FB400F054CD /* FoukeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B78D2BD73FB400F054CD /* FoukeyTests.swift */; };
 		CE35B7982BD73FB400F054CD /* FoukeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7972BD73FB400F054CD /* FoukeyUITests.swift */; };
 		CE35B79A2BD73FB400F054CD /* FoukeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7992BD73FB400F054CD /* FoukeyUITestsLaunchTests.swift */; };
+		CE35B7A72BD73FE900F054CD /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7A62BD73FE900F054CD /* FlowLayout.swift */; };
+		CE35B7A92BD7400200F054CD /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7A82BD7400200F054CD /* Journey.swift */; };
+		CE35B7AC2BD7402500F054CD /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7AB2BD7402500F054CD /* Tag.swift */; };
+		CE35B7AE2BD7403700F054CD /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7AD2BD7403700F054CD /* TagCell.swift */; };
+		CE35B7B02BD7405700F054CD /* PreviewSampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7AF2BD7405700F054CD /* PreviewSampleModel.swift */; };
+		CE35B7B22BD7407B00F054CD /* ColorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7B12BD7407B00F054CD /* ColorData.swift */; };
+		CE35B7B42BD7409600F054CD /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7B32BD7409600F054CD /* Folder.swift */; };
+		CE35B7B62BD740B200F054CD /* ModelPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7B52BD740B200F054CD /* ModelPreview.swift */; };
+		CE35B7BA2BD740FE00F054CD /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7B92BD740FE00F054CD /* CreateView.swift */; };
+		CE35B7BC2BD7411600F054CD /* HCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7BB2BD7411600F054CD /* HCalendarView.swift */; };
+		CE35B7BE2BD7412B00F054CD /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7BD2BD7412B00F054CD /* CalendarView.swift */; };
+		CE35B7C12BD7415500F054CD /* FolderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7C02BD7415500F054CD /* FolderRow.swift */; };
+		CE35B7C32BD7416D00F054CD /* FolderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7C22BD7416D00F054CD /* FolderListView.swift */; };
+		CE35B7C52BD7418500F054CD /* FolderEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7C42BD7418500F054CD /* FolderEditorView.swift */; };
+		CE35B7C82BD741CB00F054CD /* AddTagToJourneysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7C72BD741CB00F054CD /* AddTagToJourneysView.swift */; };
+		CE35B7CA2BD741DD00F054CD /* TagSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7C92BD741DD00F054CD /* TagSorting.swift */; };
+		CE35B7CC2BD741F200F054CD /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7CB2BD741F200F054CD /* TagListView.swift */; };
+		CE35B7CE2BD7420700F054CD /* NewTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7CD2BD7420700F054CD /* NewTagView.swift */; };
+		CE35B7D12BD7424B00F054CD /* JourneyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7D02BD7424B00F054CD /* JourneyListView.swift */; };
+		CE35B7D32BD7425C00F054CD /* JourneyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7D22BD7425C00F054CD /* JourneyRow.swift */; };
+		CE35B7D52BD7427700F054CD /* TitleEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35B7D42BD7427700F054CD /* TitleEditorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +60,32 @@
 		CE35B77C2BD73FB200F054CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE35B77E2BD73FB200F054CD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CE35B7802BD73FB300F054CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE35B7832BD73FB300F054CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE35B7892BD73FB400F054CD /* FoukeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoukeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE35B78D2BD73FB400F054CD /* FoukeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoukeyTests.swift; sourceTree = "<group>"; };
 		CE35B7932BD73FB400F054CD /* FoukeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoukeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE35B7972BD73FB400F054CD /* FoukeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoukeyUITests.swift; sourceTree = "<group>"; };
 		CE35B7992BD73FB400F054CD /* FoukeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoukeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE35B7A62BD73FE900F054CD /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		CE35B7A82BD7400200F054CD /* Journey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey.swift; sourceTree = "<group>"; };
+		CE35B7AB2BD7402500F054CD /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		CE35B7AD2BD7403700F054CD /* TagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
+		CE35B7AF2BD7405700F054CD /* PreviewSampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleModel.swift; sourceTree = "<group>"; };
+		CE35B7B12BD7407B00F054CD /* ColorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorData.swift; sourceTree = "<group>"; };
+		CE35B7B32BD7409600F054CD /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
+		CE35B7B52BD740B200F054CD /* ModelPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelPreview.swift; sourceTree = "<group>"; };
+		CE35B7B92BD740FE00F054CD /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		CE35B7BB2BD7411600F054CD /* HCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCalendarView.swift; sourceTree = "<group>"; };
+		CE35B7BD2BD7412B00F054CD /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		CE35B7C02BD7415500F054CD /* FolderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderRow.swift; sourceTree = "<group>"; };
+		CE35B7C22BD7416D00F054CD /* FolderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderListView.swift; sourceTree = "<group>"; };
+		CE35B7C42BD7418500F054CD /* FolderEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderEditorView.swift; sourceTree = "<group>"; };
+		CE35B7C72BD741CB00F054CD /* AddTagToJourneysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTagToJourneysView.swift; sourceTree = "<group>"; };
+		CE35B7C92BD741DD00F054CD /* TagSorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagSorting.swift; sourceTree = "<group>"; };
+		CE35B7CB2BD741F200F054CD /* TagListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		CE35B7CD2BD7420700F054CD /* NewTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTagView.swift; sourceTree = "<group>"; };
+		CE35B7D02BD7424B00F054CD /* JourneyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyListView.swift; sourceTree = "<group>"; };
+		CE35B7D22BD7425C00F054CD /* JourneyRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyRow.swift; sourceTree = "<group>"; };
+		CE35B7D42BD7427700F054CD /* TitleEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleEditorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,20 +137,13 @@
 			isa = PBXGroup;
 			children = (
 				CE35B77A2BD73FB200F054CD /* FoukeyApp.swift */,
-				CE35B77C2BD73FB200F054CD /* ContentView.swift */,
+				CE35B7B72BD740C200F054CD /* Style */,
+				CE35B7AA2BD7401400F054CD /* DataModel */,
+				CE35B7B82BD740D000F054CD /* View */,
 				CE35B77E2BD73FB200F054CD /* Item.swift */,
 				CE35B7802BD73FB300F054CD /* Assets.xcassets */,
-				CE35B7822BD73FB300F054CD /* Preview Content */,
 			);
 			path = Foukey;
-			sourceTree = "<group>";
-		};
-		CE35B7822BD73FB300F054CD /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				CE35B7832BD73FB300F054CD /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		CE35B78C2BD73FB400F054CD /* FoukeyTests */ = {
@@ -128,6 +161,73 @@
 				CE35B7992BD73FB400F054CD /* FoukeyUITestsLaunchTests.swift */,
 			);
 			path = FoukeyUITests;
+			sourceTree = "<group>";
+		};
+		CE35B7AA2BD7401400F054CD /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE35B7A82BD7400200F054CD /* Journey.swift */,
+				CE35B7AB2BD7402500F054CD /* Tag.swift */,
+				CE35B7AD2BD7403700F054CD /* TagCell.swift */,
+				CE35B7AF2BD7405700F054CD /* PreviewSampleModel.swift */,
+				CE35B7B12BD7407B00F054CD /* ColorData.swift */,
+				CE35B7B32BD7409600F054CD /* Folder.swift */,
+				CE35B7B52BD740B200F054CD /* ModelPreview.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CE35B7B72BD740C200F054CD /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				CE35B7A62BD73FE900F054CD /* FlowLayout.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		CE35B7B82BD740D000F054CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE35B77C2BD73FB200F054CD /* ContentView.swift */,
+				CE35B7B92BD740FE00F054CD /* CreateView.swift */,
+				CE35B7BB2BD7411600F054CD /* HCalendarView.swift */,
+				CE35B7BD2BD7412B00F054CD /* CalendarView.swift */,
+				CE35B7CF2BD7421C00F054CD /* JourneyList */,
+				CE35B7C62BD7419500F054CD /* Tag */,
+				CE35B7BF2BD7414100F054CD /* FolderList */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE35B7BF2BD7414100F054CD /* FolderList */ = {
+			isa = PBXGroup;
+			children = (
+				CE35B7C02BD7415500F054CD /* FolderRow.swift */,
+				CE35B7C22BD7416D00F054CD /* FolderListView.swift */,
+				CE35B7C42BD7418500F054CD /* FolderEditorView.swift */,
+			);
+			path = FolderList;
+			sourceTree = "<group>";
+		};
+		CE35B7C62BD7419500F054CD /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				CE35B7C72BD741CB00F054CD /* AddTagToJourneysView.swift */,
+				CE35B7C92BD741DD00F054CD /* TagSorting.swift */,
+				CE35B7CB2BD741F200F054CD /* TagListView.swift */,
+				CE35B7CD2BD7420700F054CD /* NewTagView.swift */,
+			);
+			path = Tag;
+			sourceTree = "<group>";
+		};
+		CE35B7CF2BD7421C00F054CD /* JourneyList */ = {
+			isa = PBXGroup;
+			children = (
+				CE35B7D02BD7424B00F054CD /* JourneyListView.swift */,
+				CE35B7D22BD7425C00F054CD /* JourneyRow.swift */,
+				CE35B7D42BD7427700F054CD /* TitleEditorView.swift */,
+			);
+			path = JourneyList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +334,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE35B7842BD73FB300F054CD /* Preview Assets.xcassets in Resources */,
 				CE35B7812BD73FB300F054CD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +359,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE35B7AE2BD7403700F054CD /* TagCell.swift in Sources */,
+				CE35B7B42BD7409600F054CD /* Folder.swift in Sources */,
+				CE35B7C32BD7416D00F054CD /* FolderListView.swift in Sources */,
+				CE35B7AC2BD7402500F054CD /* Tag.swift in Sources */,
+				CE35B7C52BD7418500F054CD /* FolderEditorView.swift in Sources */,
+				CE35B7B62BD740B200F054CD /* ModelPreview.swift in Sources */,
 				CE35B77D2BD73FB200F054CD /* ContentView.swift in Sources */,
+				CE35B7C82BD741CB00F054CD /* AddTagToJourneysView.swift in Sources */,
+				CE35B7A72BD73FE900F054CD /* FlowLayout.swift in Sources */,
 				CE35B77F2BD73FB200F054CD /* Item.swift in Sources */,
+				CE35B7B22BD7407B00F054CD /* ColorData.swift in Sources */,
+				CE35B7BE2BD7412B00F054CD /* CalendarView.swift in Sources */,
+				CE35B7BC2BD7411600F054CD /* HCalendarView.swift in Sources */,
 				CE35B77B2BD73FB200F054CD /* FoukeyApp.swift in Sources */,
+				CE35B7B02BD7405700F054CD /* PreviewSampleModel.swift in Sources */,
+				CE35B7CE2BD7420700F054CD /* NewTagView.swift in Sources */,
+				CE35B7CC2BD741F200F054CD /* TagListView.swift in Sources */,
+				CE35B7BA2BD740FE00F054CD /* CreateView.swift in Sources */,
+				CE35B7CA2BD741DD00F054CD /* TagSorting.swift in Sources */,
+				CE35B7A92BD7400200F054CD /* Journey.swift in Sources */,
+				CE35B7D52BD7427700F054CD /* TitleEditorView.swift in Sources */,
+				CE35B7C12BD7415500F054CD /* FolderRow.swift in Sources */,
+				CE35B7D12BD7424B00F054CD /* JourneyListView.swift in Sources */,
+				CE35B7D32BD7425C00F054CD /* JourneyRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
